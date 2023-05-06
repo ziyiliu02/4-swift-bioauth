@@ -16,6 +16,7 @@
 		64B045AE2A064F4B00E715DD /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B045AD2A064F4B00E715DD /* Title.swift */; };
 		64B045B22A064FB900E715DD /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B045B12A064FB900E715DD /* PrimaryButton.swift */; };
 		64B045B52A06506500E715DD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B045B42A06506500E715DD /* LoginView.swift */; };
+		64B045B72A0651F600E715DD /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B045B62A0651F600E715DD /* AuthenticationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		64B045AD2A064F4B00E715DD /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		64B045B12A064FB900E715DD /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		64B045B42A06506500E715DD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		64B045B62A0651F600E715DD /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				64B045B32A06504500E715DD /* Views */,
 				64B045AC2A064F2900E715DD /* Components */,
 				64B045902A05521500E715DD /* Assets.xcassets */,
+				64B045B62A0651F600E715DD /* AuthenticationManager.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				64B045A02A05521500E715DD /* ContentView.swift in Sources */,
 				64B045AE2A064F4B00E715DD /* Title.swift in Sources */,
 				64B045B22A064FB900E715DD /* PrimaryButton.swift in Sources */,
+				64B045B72A0651F600E715DD /* AuthenticationManager.swift in Sources */,
 				64B045B52A06506500E715DD /* LoginView.swift in Sources */,
 				64B0459E2A05521500E715DD /* __swift_bioauthApp.swift in Sources */,
 			);
