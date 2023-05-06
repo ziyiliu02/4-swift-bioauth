@@ -13,6 +13,9 @@
 		64B045A12A05521500E715DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B0458F2A05521300E715DD /* ContentView.swift */; };
 		64B045A22A05521500E715DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64B045902A05521500E715DD /* Assets.xcassets */; };
 		64B045A32A05521500E715DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64B045902A05521500E715DD /* Assets.xcassets */; };
+		64B045AE2A064F4B00E715DD /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B045AD2A064F4B00E715DD /* Title.swift */; };
+		64B045B22A064FB900E715DD /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B045B12A064FB900E715DD /* PrimaryButton.swift */; };
+		64B045B52A06506500E715DD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B045B42A06506500E715DD /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		64B045952A05521500E715DD /* 4-swift-bioauth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "4-swift-bioauth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B0459B2A05521500E715DD /* 4-swift-bioauth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "4-swift-bioauth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B0459D2A05521500E715DD /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		64B045AD2A064F4B00E715DD /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		64B045B12A064FB900E715DD /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		64B045B42A06506500E715DD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				64B0458E2A05521300E715DD /* __swift_bioauthApp.swift */,
-				64B0458F2A05521300E715DD /* ContentView.swift */,
+				64B045B32A06504500E715DD /* Views */,
+				64B045AC2A064F2900E715DD /* Components */,
 				64B045902A05521500E715DD /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -76,6 +83,24 @@
 				64B0459D2A05521500E715DD /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		64B045AC2A064F2900E715DD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				64B045AD2A064F4B00E715DD /* Title.swift */,
+				64B045B12A064FB900E715DD /* PrimaryButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		64B045B32A06504500E715DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64B0458F2A05521300E715DD /* ContentView.swift */,
+				64B045B42A06506500E715DD /* LoginView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +202,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				64B045A02A05521500E715DD /* ContentView.swift in Sources */,
+				64B045AE2A064F4B00E715DD /* Title.swift in Sources */,
+				64B045B22A064FB900E715DD /* PrimaryButton.swift in Sources */,
+				64B045B52A06506500E715DD /* LoginView.swift in Sources */,
 				64B0459E2A05521500E715DD /* __swift_bioauthApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
