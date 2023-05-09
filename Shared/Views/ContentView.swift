@@ -13,8 +13,20 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
-                LoginView()
-                    .environmentObject(authenticationManager)
+                if authenticationManager.isAuthenticated {
+                    VStack {
+                        Title()
+                        
+                        Text("Welcome in! You are now authenticated.")
+                            .foregroundColor(.white)
+                    }
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .background(LinearGradient(colors: [.blue, .purple], startPoint: .topLeading, endPoint: .bottomTrailing))
+                    
+                } else {
+                    LoginView()
+                        .environmentObject(authenticationManager)
+                }
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .edgesIgnoringSafeArea(.all)
