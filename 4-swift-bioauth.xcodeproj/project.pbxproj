@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		640370D02A08B3F4006EF122 /* CredentialsLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640370CF2A08B3F4006EF122 /* CredentialsLoginView.swift */; };
 		64B0459E2A05521500E715DD /* __swift_bioauthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B0458E2A05521300E715DD /* __swift_bioauthApp.swift */; };
 		64B0459F2A05521500E715DD /* __swift_bioauthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B0458E2A05521300E715DD /* __swift_bioauthApp.swift */; };
 		64B045A02A05521500E715DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B0458F2A05521300E715DD /* ContentView.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		640370CF2A08B3F4006EF122 /* CredentialsLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsLoginView.swift; sourceTree = "<group>"; };
 		64B0458E2A05521300E715DD /* __swift_bioauthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __swift_bioauthApp.swift; sourceTree = "<group>"; };
 		64B0458F2A05521300E715DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		64B045902A05521500E715DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			children = (
 				64B0458F2A05521300E715DD /* ContentView.swift */,
 				64B045B42A06506500E715DD /* LoginView.swift */,
+				640370CF2A08B3F4006EF122 /* CredentialsLoginView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			files = (
 				64B045A02A05521500E715DD /* ContentView.swift in Sources */,
 				64B045AE2A064F4B00E715DD /* Title.swift in Sources */,
+				640370D02A08B3F4006EF122 /* CredentialsLoginView.swift in Sources */,
 				64B045B22A064FB900E715DD /* PrimaryButton.swift in Sources */,
 				64B045B72A0651F600E715DD /* AuthenticationManager.swift in Sources */,
 				64B045B52A06506500E715DD /* LoginView.swift in Sources */,

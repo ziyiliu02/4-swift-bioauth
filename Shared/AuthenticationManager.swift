@@ -37,6 +37,7 @@ class AuthenticationManager: ObservableObject {
                 if success {
                     DispatchQueue.main.async {
                         self.isAuthenticated = true
+                        print("isAuthenticated", self.isAuthenticated)
                     }
                 }
             } catch {
@@ -47,6 +48,15 @@ class AuthenticationManager: ObservableObject {
                     self.biometryType = .none
                 }
             }
+        }
+    }
+    
+    func authenticateWithCredentials(username: String, password: String) {
+        if username.lowercased() == "stephanie" && password == "123456" {
+            isAuthenticated = true
+        } else {
+            errorDescription = "Wrong credentials"
+            showAlert = true
         }
     }
     
